@@ -13,6 +13,10 @@ body {
     color: white;
 }
 
+.imgJenkins{
+    width: 70%;
+}
+
 section>h2 {
     color: gold;
 }
