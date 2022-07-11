@@ -1,5 +1,11 @@
 # Mi Blog
 
-- Temas
-    - Git
-    - GitHub
+Un increible blog para el curso de **Git y GitHub**.
+
+> Aprendiendo nuevos comandos
+> - apiettravel
+
+## Temas
+
+- Git
+- GitHub
