@@ -17,12 +17,13 @@ git rebase experimento : No quedar historia
 git rebase master
 git branch -D experimento
 
-Guardar en memoria
+Guardar en memoria temporal:
 git stash
 git stash list
 git checkout footer
 git checkout master
-git stash pop
+git stash pop : Volver a traer los cambios
+git stash drop : Eliminar
 
 Repository Remote
 git fetch
