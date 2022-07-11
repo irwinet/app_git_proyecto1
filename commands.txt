@@ -29,6 +29,9 @@ Repository Local
     git clean --dry-run
     git clean -f
 
+    Get Only Commit:
+    git cherry-pick 73b45ea
+
 Repository Remote
 git fetch
 git merge
