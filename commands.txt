@@ -36,6 +36,9 @@ Repository Local
     git reflog
     git reset --HARD f2d0531
 
+    Agregar a un commit previo
+    git commit --amend
+
 Repository Remote
 git fetch
 git merge
