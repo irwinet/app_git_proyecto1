@@ -39,6 +39,12 @@ Repository Local
     Agregar a un commit previo
     git commit --amend
 
+    git grep color: buscar
+    git grep -n color: buscar y numero de linea
+    git grep -c la: buscar y cantidad
+    git grep -c "<p>": buscar tag y cantidad
+    git log -S "cabecera"
+
 Repository Remote
 git fetch
 git merge
