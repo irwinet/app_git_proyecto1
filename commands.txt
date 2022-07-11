@@ -10,20 +10,24 @@ git rm --cached commands.txt (trackear / untracked)
 git rm --force (Elimina los archivos de Git y del disco duro)
 
 Repository Local
-git commit -m "Add commands - urls"
-git commit -am "Message"
+    git commit -m "Add commands - urls"
+    git commit -am "Message"
 
-git rebase experimento : No quedar historia
-git rebase master
-git branch -D experimento
+    git rebase experimento : No quedar historia
+    git rebase master
+    git branch -D experimento
 
-Guardar en memoria temporal:
-git stash
-git stash list
-git checkout footer
-git checkout master
-git stash pop : Volver a traer los cambios
-git stash drop : Eliminar
+    Guardar en memoria temporal:
+    git stash
+    git stash list
+    git checkout footer
+    git checkout master
+    git stash pop : Volver a traer los cambios
+    git stash drop : Eliminar
+
+    Clean:
+    git clean --dry-run
+    git clean -f
 
 Repository Remote
 git fetch
